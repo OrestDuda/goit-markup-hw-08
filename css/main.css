@@ -602,6 +602,7 @@ ul {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  width: 100%;
   background: #2f303a;
 }
 

@@ -1,6 +1,7 @@
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  width: 100%;
   background: $color_footer_background;
   .container {
     @media screen and (min-width: 768px) {
@@ -9,6 +10,7 @@
       justify-content: center;
     }
     @media screen and (min-width: 1200px) {
-justify-content: start;    }
+      justify-content: start;
+    }
   }
 }
