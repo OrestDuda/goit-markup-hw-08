@@ -92,6 +92,7 @@ ul {
   padding-bottom: 60px;
   position: absolute;
   width: 100%;
+  max-width: 480px;
   top: 100%;
   left: 0%;
   background: #ffffff;
