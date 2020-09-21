@@ -1,0 +1,52 @@
+.member-info {
+  padding: 30px 0px 30px 0px;
+  .member-name {
+    margin: 0px 0px 10px 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $color_black;
+  }
+  .member-profession {
+    margin: 0px 0px 16px 0px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $color_grey;
+  }
+  .member-social-links {
+    li + li {
+      margin-left: 10px;
+    }
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    @media screen and (min-width: 768px) {
+      padding-left: 74px;
+      padding-right: 74px;
+    }
+    @media screen and (min-width: 1200px) {
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+    .member-social-link {
+      display: flex;
+      justify-content: center;
+      color: $color_white;
+      height: 44px;
+      width: 44px;
+      border-radius: 50%;
+      fill: $color_social_icons;
+      padding: 12px;
+      transition: $transition_all;
+      &:hover {
+        background: $color_blue;
+        fill: currentColor;
+      }
+    }
+  }
+}

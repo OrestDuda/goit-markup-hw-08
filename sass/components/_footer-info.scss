@@ -1,0 +1,45 @@
+.container-footer-info {
+  @media screen and (min-width: 768px) {
+    margin-right: 165px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+  }
+  li {
+    text-align: center;
+    @media screen and (min-width: 1200px) {
+      text-align: left;
+    }
+  }
+  .footer-logo {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: $color_blue;
+    margin-bottom: 20px;
+    span {
+      color: $color_white;
+    }
+  }
+  .address {
+    font-style: normal;
+    letter-spacing: 0.03em;
+    color: $color_white;
+    margin-bottom: 9px;
+  }
+  .footer-mail {
+    display: inline-block;
+    letter-spacing: 0.03em;
+    color: $color_footer_grey;
+    margin-bottom: 9px;
+  }
+  .footer-phone {
+    display: inline-block;
+    letter-spacing: 0.03em;
+    color: $color_footer_grey;
+  }
+}

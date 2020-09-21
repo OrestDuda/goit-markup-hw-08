@@ -1,0 +1,30 @@
+.regular-customers-logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  width: 80%;
+  border: 1px solid $color_social_icons;
+  border-radius: 4px;
+  color: $color_social_icons;
+  transition: $transition_all;
+  &:hover {
+    cursor: pointer;
+    border-color: $color_blue;
+    color: $color_blue;
+  }
+  svg {
+    fill: currentColor;
+    transition: $transition_all;
+  }
+  @media screen and (min-width: 480px) {
+    width: 210px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 226px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 170px;
+  }
+}

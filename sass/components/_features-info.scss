@@ -1,0 +1,42 @@
+.features {
+  h3 {
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $color_black;
+    margin: 0px;
+    margin-bottom: 10px;
+    @media screen and (max-width: 767px) {
+      text-align: center;
+    }
+  }
+  li {
+    margin-bottom: 30px;
+    @media screen and (max-width: 767px) {
+      &:last-child {
+        margin-bottom: 0px;
+      }
+    }
+    @media screen and (min-width: 768px) {
+      &:nth-last-child(-n + 2) {
+        margin-bottom: 0px;
+      }
+    }
+  }
+}
+.features-info {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: $color_grey;
+  margin: 0px;
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+    margin-bottom: 0px;
+  }
+}

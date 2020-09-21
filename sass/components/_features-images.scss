@@ -1,0 +1,18 @@
+.features-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  @media screen and (min-width: 480px) {
+    width: 450px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
+  background: $color_light_grey;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}

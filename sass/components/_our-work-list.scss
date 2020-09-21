@@ -1,0 +1,9 @@
+.our-work-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .our-work-list-image {
+    height: 294px;
+    position: relative;
+  }
+}

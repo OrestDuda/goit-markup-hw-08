@@ -1,0 +1,20 @@
+.features {
+  background: $color_white;
+  padding-top: 60px;
+  ul {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+  li {
+    width: calc(100% - 2 * 15 / 2);
+  }
+  @media screen and (max-width: 1199px) {
+    padding-bottom: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+  }
+}

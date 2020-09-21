@@ -1,0 +1,18 @@
+.our-work-list-overlay {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background: $color-bg-black;
+  h3 {
+    margin-top: 0px;
+    text-align: center;
+    line-height: 16px;
+    margin-bottom: 0px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $color-white;
+  }
+}

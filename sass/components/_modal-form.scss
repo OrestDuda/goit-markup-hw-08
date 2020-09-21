@@ -1,0 +1,106 @@
+.modal-form-label {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: $color_grey;
+  .modal-form-input {
+    width: 100%;
+    height: 40px;
+    margin-top: 4px;
+    border: 1px solid $color_modal_form_border;
+    border-radius: 4px;
+    padding: 12px 0px 12px 42px;
+    transition: $transition_all;
+    &:focus {
+      border: 1px solid $color_blue;
+      outline-style: none;
+      box-shadow: none;
+    }
+    &:focus-within + svg {
+      fill: $color_blue;
+    }
+  }
+}
+.modal-form {
+  button {
+    background: #188ce8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    height: 50px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    border: none;
+    padding: 10px 0px 10px 0px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  svg {
+    top: 28px;
+    left: 15px;
+    position: absolute;
+    transition: $transition_all;
+  }
+  textarea {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 20px;
+    border: 1px solid $color_modal_form_border;
+    border-radius: 4px;
+    resize: none;
+    padding: 12px 16px;
+    transition: $transition_all;
+    &:focus {
+      border: 1px solid $color_blue;
+      outline-style: none;
+      box-shadow: none;
+    }
+  }
+  .modal-form-checkbox {
+    margin-bottom: 30px;
+    label {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.03em;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+    }
+    input {
+      appearance: none;
+      &:checked::after {
+        border: transparent;
+        background: url(../images/icon-check.svg);
+      }
+      &::after {
+        content: '';
+        display: inline-block;
+        width: 16px;
+        height: 15px;
+        border: 2px solid $color_black;
+        border-radius: 4px;
+        margin-left: 13px;
+        margin-right: 7px;
+        transition: $transition_all;
+      }
+    }
+  }
+  a {
+    color: $color_blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
