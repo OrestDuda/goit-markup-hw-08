@@ -35,12 +35,7 @@ ul {
 .container {
   margin: auto;
   padding: 0px 15px 0px 15px;
-}
-
-@media screen and (max-width: 479px) {
-  .container {
-    width: 100%;
-  }
+  width: 100%;
 }
 
 @media screen and (min-width: 480px) {
@@ -530,9 +525,6 @@ ul {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .regular-customers li {
