@@ -1,0 +1,20 @@
+.portfolio-info {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  .portfolio-name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: $color_black;
+    margin: 0px 0px 4px 0px;
+  }
+  .portfolio-type {
+    font-weight: normal;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: $color_grey;
+    margin: 0px;
+  }
+}

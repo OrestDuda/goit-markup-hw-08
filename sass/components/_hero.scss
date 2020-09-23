@@ -21,11 +21,15 @@
   h2 {
     margin-bottom: 30px;
     font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
+    font-size: 26px;
+    line-height: 42px;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: $color_white;
+    @media screen and (min-width: 1200px) {
+      font-size: 44px;
+      line-height: 60px;
+    }
   }
 }

@@ -11,4 +11,10 @@
   span {
     color: $color_black;
   }
+  @media screen and (min-width: 768px) {
+    margin-right: 88px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+  }
 }

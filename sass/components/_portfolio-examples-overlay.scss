@@ -1,0 +1,27 @@
+.portfolio-image-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: rgba(33, 150, 243, 0.9);
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  padding: 63px 24px;
+  transition: $transition_all;
+  p {
+    margin: 0px;
+  }
+}
+.portfolio-examples {
+  li {
+    transition: $transition_all;
+    &:hover .portfolio-image-overlay {
+      transform: translatey(-100%);
+    }
+    &:hover {
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+  }
+}

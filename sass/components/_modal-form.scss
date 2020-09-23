@@ -74,12 +74,13 @@
       font-size: 14px;
       line-height: 24px;
       letter-spacing: 0.03em;
-      display: flex;
+      display: inline-flex;
       flex-direction: row;
       align-items: center;
       justify-content: space-around;
     }
     input {
+      outline: none;
       appearance: none;
       &:checked::after {
         border: transparent;
