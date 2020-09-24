@@ -7,7 +7,10 @@
   line-height: 28px;
   letter-spacing: 0.03em;
   color: #ffffff;
-  padding: 77px 24px;
+  padding: 12px 12px;
+  @media screen and (min-width: 480px) {
+    padding: 77px 24px;
+  }
   @media screen and (min-width: 768px) {
     padding: 49px 24px;
   }
