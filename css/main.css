@@ -367,6 +367,13 @@ ul {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .navigation-contacts a {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
 .navigation-contacts a:hover {
   color: #2196f3;
 }
@@ -1177,7 +1184,7 @@ ul {
   transition: transform 300ms linear;
   transition: transform 300ms linear, -webkit-transform 300ms linear;
   border-radius: 4px;
-  width: 90%;
+  width: 95%;
 }
 
 @media screen and (min-width: 480px) {
@@ -1515,9 +1522,21 @@ ul {
   line-height: 28px;
   letter-spacing: 0.03em;
   color: #ffffff;
-  padding: 63px 24px;
+  padding: 77px 24px;
   -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-image-overlay {
+    padding: 49px 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio-image-overlay {
+    padding: 63px 24px;
+  }
 }
 
 .portfolio-image-overlay p {
