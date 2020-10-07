@@ -1180,8 +1180,8 @@ ul {
   left: 50%;
   padding: 10px;
   background-color: #ffffff;
-  -webkit-transform: translate(-50%, -50%) rotate(0deg);
-          transform: translate(-50%, -50%) rotate(0deg);
+  -webkit-transform: translate(-50%, -50%) rotate(0deg) scale(1);
+          transform: translate(-50%, -50%) rotate(0deg) scale(1);
   -webkit-transition: -webkit-transform 300ms linear;
   transition: -webkit-transform 300ms linear;
   transition: transform 300ms linear;
@@ -1194,6 +1194,13 @@ ul {
   .modal {
     padding: 40px;
     width: 450px;
+  }
+}
+
+@media screen and (max-height: 640px) {
+  .modal {
+    -webkit-transform: translate(-50%, -50%) scale(0.7);
+            transform: translate(-50%, -50%) scale(0.7);
   }
 }
 
