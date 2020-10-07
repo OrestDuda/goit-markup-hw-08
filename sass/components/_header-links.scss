@@ -5,12 +5,12 @@
     align-items: center;
     font-size: 18px;
     line-height: 21px;
+    letter-spacing: 0.02em;
+    color: $color_black;
     @media screen and (min-width: 768px) {
       font-size: 14px;
       line-height: 16px;
     }
-    letter-spacing: 0.02em;
-    color: $color_black;
     &:hover {
       color: $color_blue;
     }
@@ -57,15 +57,11 @@
         padding-top: 32px;
         padding-bottom: 32px;
       }
-      @media screen and (min-width: 1200px) {
-        padding-top: 32px;
-        padding-bottom: 32px;
-      }
     }
   }
   .active::after {
     position: absolute;
-    content: '';
+    content: "";
     width: 100%;
     height: 4px;
     border-radius: 2px;
